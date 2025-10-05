@@ -18,7 +18,7 @@ namespace DataStructuresToolkit.Tests
 		}
 
 		[Test]
-		public void Constant_Test()
+		public void RunConstantScenario_ReturnsFirstElement()
 		{
 			var sw = new Stopwatch();
 			for (int i = 0; i < arrays.Length; i++)
@@ -34,7 +34,7 @@ namespace DataStructuresToolkit.Tests
 		}
 
 		[Test]
-		public void Linear_Test()
+		public void RunLinearScenario_CountsElements()
 		{
 			var sw = new Stopwatch();
 			for (int i = 0; i < arrays.Length; i++)
@@ -50,7 +50,7 @@ namespace DataStructuresToolkit.Tests
 		}
 
 		[Test]
-		public void Quadratic_Test()
+		public void RunQuadraticScenario_CountsCombinations()
 		{
 			var sw = new Stopwatch();
 			for (int i = 0; i < arrays.Length; i++)

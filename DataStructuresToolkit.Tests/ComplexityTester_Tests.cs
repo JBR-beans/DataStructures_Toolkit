@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 namespace DataStructuresToolkit.Tests
 {
+	[TestFixture]
 	public class ComplexityTester_Tests
 	{
 		private int[][] arrays = new int[3][];
